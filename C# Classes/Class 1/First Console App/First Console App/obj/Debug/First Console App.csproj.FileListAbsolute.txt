@@ -1,0 +1,8 @@
+C:\Users\DsDra\Desktop\First Console App\First Console App\bin\Debug\First Console App.exe.config
+C:\Users\DsDra\Desktop\First Console App\First Console App\bin\Debug\First Console App.exe
+C:\Users\DsDra\Desktop\First Console App\First Console App\bin\Debug\First Console App.pdb
+C:\Users\DsDra\Desktop\First Console App\First Console App\obj\Debug\First Console App.csproj.AssemblyReference.cache
+C:\Users\DsDra\Desktop\First Console App\First Console App\obj\Debug\First Console App.csproj.SuggestedBindingRedirects.cache
+C:\Users\DsDra\Desktop\First Console App\First Console App\obj\Debug\First Console App.csproj.CoreCompileInputs.cache
+C:\Users\DsDra\Desktop\First Console App\First Console App\obj\Debug\First Console App.exe
+C:\Users\DsDra\Desktop\First Console App\First Console App\obj\Debug\First Console App.pdb
