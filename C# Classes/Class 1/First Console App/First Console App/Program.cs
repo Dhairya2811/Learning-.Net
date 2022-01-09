@@ -8,9 +8,13 @@ namespace First_Console_App // if you remember in Java there was a keyword "pack
 {
     class Program
     {
+        public static string title = "C# Essential Traning";
+        public static int whichPart;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello this is Dhairya Soni!!!"); // WriteLine will write the text inside the console.
+            whichPart = 2;
+            var message = string.Format("Welcome to {0} Part {1}", title, whichPart);
+            Console.WriteLine(message); // WriteLine will write the text inside the console.
             Console.WriteLine("Press enter to continue");
             Console.ReadLine(); // ReadLine will wait for the responce text untill user press enter again.
 
