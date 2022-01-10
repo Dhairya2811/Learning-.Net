@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SchoolFormApp/1.0.0": {
+        "dependencies": {
+          "SchoolApp": "1.0.0"
+        },
+        "runtime": {
+          "SchoolFormApp.dll": {}
+        }
+      },
+      "SchoolApp/1.0.0": {
+        "runtime": {
+          "SchoolApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolFormApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

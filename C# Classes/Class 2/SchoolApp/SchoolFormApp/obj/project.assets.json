@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "SchoolApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SchoolApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolApp/1.0.0": {
+      "type": "project",
+      "path": "../SchoolApp/SchoolApp.csproj",
+      "msbuildProject": "../SchoolApp/SchoolApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "SchoolApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DsDra\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DsDra\\OneDrive\\Desktop\\Dhairya's Work\\Programs\\Learning-.Net\\C# Classes\\Class 2\\SchoolApp\\SchoolFormApp\\SchoolFormApp.csproj",
+      "projectName": "SchoolFormApp",
+      "projectPath": "C:\\Users\\DsDra\\OneDrive\\Desktop\\Dhairya's Work\\Programs\\Learning-.Net\\C# Classes\\Class 2\\SchoolApp\\SchoolFormApp\\SchoolFormApp.csproj",
+      "packagesPath": "C:\\Users\\DsDra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DsDra\\OneDrive\\Desktop\\Dhairya's Work\\Programs\\Learning-.Net\\C# Classes\\Class 2\\SchoolApp\\SchoolFormApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DsDra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\DsDra\\OneDrive\\Desktop\\Dhairya's Work\\Programs\\Learning-.Net\\C# Classes\\Class 2\\SchoolApp\\SchoolApp\\SchoolApp.csproj": {
+              "projectPath": "C:\\Users\\DsDra\\OneDrive\\Desktop\\Dhairya's Work\\Programs\\Learning-.Net\\C# Classes\\Class 2\\SchoolApp\\SchoolApp\\SchoolApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

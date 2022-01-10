@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "411d0a0c-35f0-4bd9-b5de-6d05f4075a84": {
+      "ProjectGuid": "411d0a0c-35f0-4bd9-b5de-6d05f4075a84",
+      "DisplayName": "SchoolApp",
+      "ColorIndex": 0
+    },
+    "e21e118c-5ec3-4dc5-81f6-52c9d74f3f24": {
+      "ProjectGuid": "e21e118c-5ec3-4dc5-81f6-52c9d74f3f24",
+      "DisplayName": "SchoolFormApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
