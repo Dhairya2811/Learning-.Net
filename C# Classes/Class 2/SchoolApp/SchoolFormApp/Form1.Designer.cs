@@ -43,6 +43,8 @@
             this.zip = new System.Windows.Forms.TextBox();
             this.phoneNumber = new System.Windows.Forms.TextBox();
             this.btnPushToText = new System.Windows.Forms.Button();
+            this.testTeacher = new System.Windows.Forms.Button();
+            this.testStudent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -167,11 +169,33 @@
             this.btnPushToText.UseVisualStyleBackColor = true;
             this.btnPushToText.Click += new System.EventHandler(this.btnPushToText_Click);
             // 
+            // testTeacher
+            // 
+            this.testTeacher.Location = new System.Drawing.Point(56, 413);
+            this.testTeacher.Name = "testTeacher";
+            this.testTeacher.Size = new System.Drawing.Size(94, 53);
+            this.testTeacher.TabIndex = 15;
+            this.testTeacher.Text = "Test Teacher";
+            this.testTeacher.UseVisualStyleBackColor = true;
+            this.testTeacher.Click += new System.EventHandler(this.testTeacher_Click);
+            // 
+            // testStudent
+            // 
+            this.testStudent.Location = new System.Drawing.Point(220, 413);
+            this.testStudent.Name = "testStudent";
+            this.testStudent.Size = new System.Drawing.Size(94, 53);
+            this.testStudent.TabIndex = 16;
+            this.testStudent.Text = "Test Student";
+            this.testStudent.UseVisualStyleBackColor = true;
+            this.testStudent.Click += new System.EventHandler(this.testStudent_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 450);
+            this.ClientSize = new System.Drawing.Size(398, 487);
+            this.Controls.Add(this.testStudent);
+            this.Controls.Add(this.testTeacher);
             this.Controls.Add(this.btnPushToText);
             this.Controls.Add(this.phoneNumber);
             this.Controls.Add(this.zip);
@@ -212,5 +236,7 @@
         private TextBox zip;
         private TextBox phoneNumber;
         private Button btnPushToText;
+        private Button testTeacher;
+        private Button testStudent;
     }
 }
